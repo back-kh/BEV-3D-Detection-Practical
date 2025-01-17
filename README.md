@@ -22,9 +22,8 @@ project_root/
 - matplotlib
 - moviepy
 - numpy
-- 1. **Prepare the Dataset**
+1. **Prepare the Dataset**
    - Download the Lyft dataset and place it in a folder (e.g., `data/`).
-
 2. **Run the Main Script**
    ```bash
    python main.py --data_path <path_to_data> --json_path <path_to_json> --output_path <output_folder>
@@ -46,19 +45,3 @@ project_root/
 ```bash
 python main.py --data_path ./data --json_path ./data/json --output_path ./output
 ```
-
-### Modular Components
-
-#### `data_loader.py`
-- Loads the Lyft dataset using the Lyft Dataset SDK.
-
-#### `visualization.py`
-- Functions for:
-  - Plotting individual LiDAR frames.
-  - Creating videos of entire scenes.
-
-#### `lidar_processing.py`
-- Processes LiDAR point cloud data and transforms it into the ego vehicle frame.
-
-#### `utils.py`
-- Contains utility functions such as ensuring directories exist.
