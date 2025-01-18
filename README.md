@@ -52,35 +52,23 @@ python main.py --data_path ./data --json_path ./data/json --output_path ./output
 Download the LiDAR dataset and store it in a folder (e.g., data/).
 Update the image_paths in main.py to point to the image files.
 ### Requirements
-### PyTorch and related dependencies
--torch==2.0.0
--torchvision==0.15.0
--torchaudio==2.0.0
 
-### ONNX and ONNX Runtime for model inference
--onnx==1.14.0
--onnxruntime==1.14.0
--onnx-graphsurgeon==0.4.0
-
-### LiDAR and computer vision
--numpy==1.23.0
--opencv-python==4.6.0
--scipy==1.9.0
--matplotlib==3.5.1
--pillow==9.2.0
-
-### Image and visualization tools
--moviepy==1.0.3
--pyquaternion==0.9.5
-
-### Optional for running on different backends
--onnxruntime-gpu==1.14.0  # for CUDA-enabled GPU acceleration (if needed)
-
-### Misc utilities
--tqdm==4.64.0
--scikit-learn==1.1.1
-
-### Additional (if you plan to extend the functionality)
--mmcv==2.0.0
--mmdet==3.0.0
+- torch==2.0.0
+- torchvision==0.15.0
+- torchaudio==2.0.0
+- moviepy
+- numpy
+- onnx==1.14.0
+- onnxruntime==1.14.0
+- opencv-python==4.6.0
+- scipy==1.9.0
+- matplotlib==3.5.1
+- pillow==9.2.0
+- moviepy==1.0.3
+- pyquaternion==0.9.5
+- onnxruntime-gpu==1.14.0
+- tqdm==4.64.0
+- scikit-learn==1.1.1
+- mmcv==2.0.0
+- mmdet==3.0.0
 
