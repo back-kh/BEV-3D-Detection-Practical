@@ -2,7 +2,7 @@
 BEV-3D detection implementation represents the state-of-the-art in practical applications, offering cutting-edge solutions for real-world challenges in autonomous driving, robotics, and advanced perception systems.
 
 ## 1) LiDAR Data Processing and Visualization for Lyft Dataset
-This project processes and visualizes LiDAR data from the Lyft dataset. It includes modular components for loading the dataset, processing LiDAR points, and creating visualizations such as plots and videos.
+This project processes and visualizes LiDAR data from the Lyft dataset. It includes modular components for loading the dataset, processing LiDAR points, and creating visualizations such as plots.
 
 ### Folder Structure
 
